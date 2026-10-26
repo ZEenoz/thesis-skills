@@ -14,13 +14,13 @@
 ### Skills CLI (แนะนำ)
 
 ```bash
-npx skills add <owner>/thesis-skills --global --agent '*'
+npx skills add ZEenoz/thesis-skills --global --agent '*'
 ```
 
 ### Claude Code plugin marketplace
 
 ```bash
-/plugin marketplace add <owner>/thesis-skills
+/plugin marketplace add ZEenoz/thesis-skills
 /plugin install thesis-report-writer@thesis-skills
 /plugin install humanizer-th@thesis-skills
 ```
