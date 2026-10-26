@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "thesis-report-writer",
+  "description": "เขียน จัดรูปแบบ และตรวจเล่มวิทยานิพนธ์/รายงานสหกิจศึกษา (.docx) ตามแม่แบบของหน่วยงาน พร้อมตัวตรวจ compliance",
+  "version": "1.0.0",
+  "keywords": ["thesis", "dissertation", "report", "docx", "formatting", "วิทยานิพนธ์", "รายงานสหกิจศึกษา", "เล่มวิจัย"],
+  "skills": ["./"]
+}

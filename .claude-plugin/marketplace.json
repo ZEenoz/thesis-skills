@@ -1,0 +1,27 @@
+{
+  "name": "thesis-skills",
+  "owner": {
+    "name": "Naphat Em-ong"
+  },
+  "metadata": {
+    "description": "Skills สำหรับเขียนเล่มวิทยานิพนธ์/รายงานวิจัย และปรับภาษาไทยให้เป็นธรรมชาติ",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "thesis-report-writer",
+      "source": "./thesis-report-writer",
+      "description": "เขียน จัดรูปแบบ และตรวจเล่มวิทยานิพนธ์/รายงานสหกิจศึกษา (.docx) ตามแม่แบบของหน่วยงาน พร้อมตัวตรวจ compliance",
+      "version": "1.0.0",
+      "keywords": ["thesis", "dissertation", "docx", "วิทยานิพนธ์", "รายงานสหกิจศึกษา"]
+    },
+    {
+      "name": "humanizer-th",
+      "source": "./humanizer-th",
+      "description": "แก้ข้อความภาษาไทยที่ดูเหมือน AI เขียน ให้อ่านเหมือนคนเขียน โดยไม่เปลี่ยนสาระ",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["thai", "writing", "editing", "ภาษาไทย", "ปรับภาษา"]
+    }
+  ]
+}
