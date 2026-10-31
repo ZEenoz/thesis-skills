@@ -76,8 +76,8 @@ thesis-skills/
 │   ├── SKILL.md
 │   ├── assets/          # โปรไฟล์สไตล์เริ่มต้น + Word master
 │   ├── evals/           # กรณีทดสอบ
-│   ├── references/      # โครงเล่ม, spec DSL, ตาราง/รูป, Word backend
-│   └── scripts/         # build / check / inspect / make_master
+│   ├── references/      # สกัด style, โครงเล่ม, spec DSL, ตาราง/รูป, Word backend
+│   └── scripts/         # build / check / derive / inspect / make_master
 ├── humanizer-th/
 │   ├── .claude-plugin/plugin.json
 │   ├── SKILL.md
@@ -90,5 +90,5 @@ thesis-skills/
 
 ## หมายเหตุ
 
-- โปรไฟล์ที่แถมมากับ `thesis-report-writer` เป็นสไตล์วิทยานิพนธ์ไทย (KMITL คณะวิทยาศาสตร์) ใช้เป็นจุดเริ่มต้นได้ แต่สไตล์ของหน่วยงานอื่นให้แก้โปรไฟล์หรือสกัดจากไฟล์แม่แบบด้วย `inspect_docx.py` — กลไกทั้งหมดไม่ผูกกับสถาบันใดสถาบันหนึ่ง
+- โปรไฟล์ที่แถมมากับ `thesis-report-writer` เป็นสไตล์วิทยานิพนธ์ไทย (KMITL คณะวิทยาศาสตร์) ใช้เป็นจุดเริ่มต้นได้ แต่สไตล์ของหน่วยงานอื่นให้แก้โปรไฟล์ หรือสกัดจากเอกสารจริงด้วย `derive_profile.py` / ไฟล์แม่แบบด้วย `inspect_docx.py` — กลไกทั้งหมดไม่ผูกกับสถาบันใดสถาบันหนึ่ง
 - `humanizer-th` เผยแพร่ภายใต้สัญญาอนุญาต MIT ตามที่ระบุใน `SKILL.md` และ `plugin.json`

@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Skills สำหรับเขียนเล่มวิทยานิพนธ์/รายงานวิจัย และปรับภาษาไทยให้เป็นธรรมชาติ",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "thesis-report-writer",
       "source": "./thesis-report-writer",
       "description": "เขียน จัดรูปแบบ และตรวจเล่มวิทยานิพนธ์/รายงานสหกิจศึกษา (.docx) ตามแม่แบบของหน่วยงาน พร้อมตัวตรวจ compliance",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "keywords": ["thesis", "dissertation", "docx", "วิทยานิพนธ์", "รายงานสหกิจศึกษา"]
     },
     {
